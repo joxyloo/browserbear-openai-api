@@ -45,8 +45,7 @@ def scrape_data(target_url, job_type, fields_array):
                 "action": "ai_save_data",
                 "config": {
                 "labels": search_fields
-                },
-                "iterate": True # loop over the previous step's links
+                }
             }
         ]
     }
